@@ -1,8 +1,8 @@
 import Image from "next/image";
-import ProfilePic from "./components/ProfilePic";
-import Button from "./components/Button";
+import ProfilePic from "../../components/ProfilePic";
+import Button from "../../components/Button";
 
-export default function Home() {
+export default function Contact() {
   return (
     <main className=" font-Montserrat bg-black0-base w-screen h-screen">
       <div className=" h-full items-center space-x-6 flex justify-center">
@@ -13,11 +13,11 @@ export default function Home() {
           <h3 className=" mt-3">Hi, I'm Robert! A recent graduate with a passion for mechanical and software engineering</h3>
         
           <div className=" mt-6 text-4xl flex w-full m-auto justify-evenly">
-            <Button text="Portfolio" url="./pages/Portfolio"/>
+            <Button />
             <p>|</p>
-            <Button text="Resume" url="./pages/Resume"/>
+            <Button />
             <p>|</p>
-            <Button text="Contact" url="./pages/Contact"/>
+            <Button />
           </div>
         </div>
       </div>
