@@ -10,7 +10,7 @@ export default function Portfolio() {
         <div className="">
           <h1 className=" text-6xl">Robert Iobagiu</h1>
           <h2 className=" text-xl">Automation Engineer | Software Developer</h2>
-          <h3 className=" mt-3">Hi, I'm Robert! A recent graduate with a passion for mechanical and software engineering</h3>
+          <h3 className=" mt-3">Hi, I&apos;m Robert! A recent graduate with a passion for mechanical and software engineering</h3>
         
           <div className=" mt-6 pt-6 text-4xl flex w-full m-auto justify-evenly">
             <Button />
