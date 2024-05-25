@@ -20,6 +20,7 @@ module.exports = {
       },
       fontFamily: {
         "Montserrat": ["Montserrat", 'sans-serif'],
+        "LeagueSpartan": ["League Spartan", "sans-serif"],
       }
     },
   },

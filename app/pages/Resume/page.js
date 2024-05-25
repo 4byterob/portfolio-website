@@ -16,7 +16,7 @@ export default function Resume() {
     const [tabgroupActive, setTabgroupActive] = useState([true, false]);
 
     return (
-        <main className=" font-Montserrat bg-black0-base w-screen h-full">
+        <main className=" font-LeagueSpartan bg-black0-base w-screen h-full">
         <Navbar id="Navbar"/>
         
         { scrollY > 300 &&

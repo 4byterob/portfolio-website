@@ -4,7 +4,7 @@ import Button from "../components/Button";
 
 export default function Navbar() {
   return (
-    <main className=" px-4 flex font-Montserrat bg-black0-base w-screen h-20">
+    <main className=" px-4 flex font-LeagueSpartan bg-black0-base w-screen h-20">
       <div className=" flex">
         <Button text="Home" url="../../"/>
       </div>
