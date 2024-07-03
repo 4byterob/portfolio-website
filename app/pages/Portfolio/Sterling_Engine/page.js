@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function ASRS() {
+export default function SterlingEngine() {
   return (
     <main className=" font-LeagueSpartan bg-black0-base w-screen h-full min-h-screen pb-24">
       <Link href="/" className=" font-extrabold text-6xl text-gray-200 rounded-full hover:bg-gray-600 transition duration-200 absolute left-4 top-4 p-1"><div className="translate-y-[5px]">⬅</div></Link>

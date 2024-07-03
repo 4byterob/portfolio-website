@@ -70,9 +70,9 @@ export default function Home() {
           {/* Body */}
           <div className="w-[80%] mx-auto mt-16 flex flex-wrap justify-evenly">
             <PortfolioButton src="/images/ASRS/1.jpg" width={300} height={300} header="ASRS" url="./pages/Portfolio/ASRS" description="ASRS Description" />
-            <PortfolioButton width={300} height={300} header="MPS Station" url="./pages/Portfolio/MPS Station" description="MPS Station Description" />
-            <PortfolioButton width={300} height={300} header="Sterling Engine" url="./pages/Portfolio/Sterling Engine" description="Sterling Engine Description Sterling Engine Description Sterling Engine Description" />
-            <PortfolioButton width={300} height={300} header="Sumo Robot" url="./pages/Portfolio/Sumo Robot" description="Sumo Robot Description" />
+            <PortfolioButton width={300} height={300} header="MPS Station" url="./pages/Portfolio/MPS_Station" description="MPS Station Description" />
+            <PortfolioButton width={300} height={300} header="Sterling Engine" url="./pages/Portfolio/Sterling_Engine" description="Sterling Engine Description Sterling Engine Description Sterling Engine Description" />
+            <PortfolioButton width={300} height={300} header="Sumo Robot" url="./pages/Portfolio/Sumo_Robot" description="Sumo Robot Description" />
           </div>
         </div>
       </section>
