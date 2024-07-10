@@ -63,7 +63,7 @@ export default function MPSStation() {
 
           <div className="mt-6">
             <p className="text-2xl">
-              The project starts with needing to assemble a new Allen-Bradley PLC equipped with a reliable power supply, input and output slots, and connection cables protruding out of the PLC's I/O ports* for connecting to the physical mechanisms outside.
+              The project starts with needing to assemble a new Allen-Bradley PLC equipped with a reliable power supply, input and output slots, and connection cables protruding out of the PLC&apos;s I/O ports* for connecting to the physical mechanisms outside.
             </p>
 
             <div className="flex justify-between pt-8 text-2xl">

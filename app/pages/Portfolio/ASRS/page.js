@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import ExpandImage from "@/app/components/ExpandImage"
 
 export default function ASRS() {
   return (
@@ -21,11 +22,11 @@ export default function ASRS() {
               </p>
             </div>
             <div className="w-[25%] ml-auto mr-10">
-              <Image className=""
-                    alt="Cover Picture"
-                    src="/images/ASRS/1.jpg"
-                    width="10000"
-                    height="10000"/>
+              <ExpandImage className=""
+                           alt="Cover Picture"
+                           src="/images/ASRS/1.jpg"
+                           width="10000"
+                           height="10000"/>
             </div>
           </div>
         </section>
@@ -53,6 +54,18 @@ export default function ASRS() {
               The workspace had an existing <a href="https://new.abb.com/products/3HAC020536-001/irb-140" className="underline">IRB 140 Robot</a> by  
               ABB and a steel frame fitted with racks to house the materials being stored or retrieved. A 3-axis movement tray was installed on the storage 
               frame using steel wires, frames, and motors.
+            </p>
+          </div>
+
+          <div className="mt-6 flex w-full">
+            <ExpandImage parentClassName="max-w-[50%]"
+                         src="/images/ASRS/0.jpg"
+                         alt="ASRS Start"
+                         width="2522"
+                         height="4000"/>
+            <div className="w-[2%]" />
+            <p className="text-2xl max-w-[50%]">
+              
             </p>
           </div>
         </section>
