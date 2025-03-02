@@ -48,7 +48,15 @@ export default function ASRS() {
         <section className="mt-24">
           <h1 className="text-5xl">Defining The Problem</h1>
 
-          <div className="mt-6">
+          <div className="mt-6 flex">
+            <div className="w-full">
+              <ExpandImage parentClassName="max-w-[100%]"
+                          src="/images/ASRS/0.jpg"
+                          alt="ASRS Start"
+                          width="2522"
+                          height="4000"/>
+            </div>
+            <div className="w-[10%]"/>
             <p className="text-2xl">
               My team was tasked by our client, Daniel Barret, to develop a functioning model to simulate an automated industry warehouse inventory system. 
               The workspace had an existing <a href="https://new.abb.com/products/3HAC020536-001/irb-140" className="underline">IRB 140 Robot</a> by  
@@ -57,17 +65,39 @@ export default function ASRS() {
             </p>
           </div>
 
-          <div className="mt-6 flex w-full">
-            <ExpandImage parentClassName="max-w-[50%]"
-                         src="/images/ASRS/0.jpg"
-                         alt="ASRS Start"
-                         width="2522"
-                         height="4000"/>
-            <div className="w-[2%]" />
-            <p className="text-2xl max-w-[50%]">
-              
+          <div className="flex mt-10">
+            <p className="text-2xl w-full">
+              The machine was connected to a 14" HMI display which was designed to control the ASRS with a user-friendly interface in mind.
+              It is vital to have every element be quickly identified and understood by any user, indifferent of skill level. Thus, it is ideal
+              to create a visual display that is simple yet informative to the user.
             </p>
+            <div className="w-[10%]"/>
+            <div className="w-full">
+              <ExpandImage parentClassName="max-w-[100%]"
+                           src="/images/ASRS/2.jpg"
+                           alt="ASRS Start"
+                           width="2522"
+                           height="4000"/>
+              <div className="mt-2"/>
+              <ExpandImage parentClassName="max-w-[100%]"
+                           src="/images/ASRS/3.jpg"
+                           alt="ASRS Start"
+                           width="2522"
+                           height="4000"/>
+            </div>
           </div>
+        </section>
+        <section className="mt-24">
+          <h1 className="text-5xl">Process</h1>
+
+          <p className="text-2xl mt-6">
+            My role in the team as Lead Programmer, as I have an extensive background in programming projects of
+            different varieties as well as an excellent understanding of computer knowledge and debugging.
+          </p>
+          <p className="text-2xl mt-4">
+            My teammates and I began by identifying problems and brainstorming as many solutions as we could come up with,
+            no matter how significant one may appear over the other.
+          </p>
         </section>
       </div>
     </main>
