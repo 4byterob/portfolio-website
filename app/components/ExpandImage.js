@@ -29,7 +29,7 @@ export default function ExpandImage({src, alt, width, height, parentClassName, i
                            objectFit="fit"
                     />
                 </div>
-                <button onClick={() => flipToggle()} className="absolute top-0 right-0 mr-6 mt-6 text-4xl z-50 bg-yellow-500">X</button>
+                <button onClick={() => flipToggle()} className="absolute top-0 right-0 mr-6 mt-6 text-4xl z-50 bg-white bg-opacity-30 py-2 px-4 rounded-full hover:scale-110 transition-all duration-200 hover:bg-opacity-60">X</button>
             </div>
         }
     </div>

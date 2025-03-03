@@ -94,10 +94,32 @@ export default function ASRS() {
             My role in the team as Lead Programmer, as I have an extensive background in programming projects of
             different varieties as well as an excellent understanding of computer knowledge and debugging.
           </p>
-          <p className="text-2xl mt-4">
-            My teammates and I began by identifying problems and brainstorming as many solutions as we could come up with,
-            no matter how significant one may appear over the other.
-          </p>
+          <div className="flex mt-6">
+            <div className="w-full">
+              <p className="text-2xl">
+                My teammates and I began by identifying problems and brainstorming as many solutions as we could come up with,
+                no matter how significant one may appear over the other.
+              </p>
+              <p className="text-2xl mt-4">
+                We wanted to overhaul the existing <i>tray</i>, <i>gripper</i>, <i>storage rack</i>, <i>delivery station</i>, and <i>tray extractor</i> designs.
+                The original ASRS had functioning moving parts, but only aluminum trays which could not be picked up. We were looking to implement 3D printed components
+                for the tray, grippers, and tray extractors, as these could be useful methods of prototyping the designs we came up with.
+              </p>
+              <p className="text-2xl mt-4">
+                Some of the sketched out designs needed to work in conjunction with others. For instance, the first tray design would work with the first gripper
+                and storage rack designs because the tray extended out a hook to be grabbed from above. Other tray designs may have necessitated the grippers to
+                pick 
+              </p>
+            </div>
+            <div className="w-[6%]"/>
+            <div className="flex max-w-[40%]">
+              <ExpandImage parentClassName="max-w-[100%]"
+                           src="/images/ASRS/5.jpg"
+                           alt="ASRS Start"
+                           width="1379"
+                           height="1064"/>
+            </div>
+          </div>
         </section>
       </div>
     </main>
