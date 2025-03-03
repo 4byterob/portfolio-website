@@ -34,3 +34,7 @@ body {
     text-wrap: balance;
   }
 }
+
+#tsparticles {
+  height: 100%;
+}

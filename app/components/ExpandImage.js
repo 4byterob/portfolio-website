@@ -16,7 +16,7 @@ export default function ExpandImage({src, alt, width, height, parentClassName, i
 
     return (
     <div onClick={() => flipToggle()} className={parentClassName}>
-        <Image src={src} alt={alt} width={width} height={height} className={imgClassName} />
+        <Image src={src} alt={alt} width={width} height={height} className={imgClassName + " hover:cursor-pointer"} />
         
         {(isToggled % 2 == 1) &&
             <div className="fixed top-0 left-0 w-screen h-screen bg-black bg-opacity-70">

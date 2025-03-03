@@ -67,7 +67,7 @@ export default function ASRS() {
 
           <div className="flex mt-10">
             <p className="text-2xl w-full">
-              The machine was connected to a 14" HMI display which was designed to control the ASRS with a user-friendly interface in mind.
+              The machine was connected to a 14&quot; HMI display which was designed to control the ASRS with a user-friendly interface in mind.
               It is vital to have every element be quickly identified and understood by any user, indifferent of skill level. Thus, it is ideal
               to create a visual display that is simple yet informative to the user.
             </p>
