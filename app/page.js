@@ -72,9 +72,9 @@ export default function Home() {
           {/* Body */}
           <div className="w-[80%] mx-auto mt-16 flex flex-wrap gap-8 align-middle">
             <PortfolioButton src="/images/ASRS/1.jpg" width={300} height={300} header="ASRS" url="./pages/Portfolio/ASRS" description="ASRS Description" imgClassName="-translate-y-[25%]"/>
-            <PortfolioButton width={300} height={300} header="MPS Station" url="./pages/Misc/UnderConstruction" description="MPS Station Description" />
-            <PortfolioButton width={300} height={300} header="Sterling Engine" url="./pages/Misc/UnderConstruction" description="Sterling Engine Description" />
-            <PortfolioButton width={300} height={300} header="Sumo Robot" url="./pages/Misc/UnderConstruction" description="Sumo Robot Description" />
+            <PortfolioButton src="/images/MPS_Station/0.jpg" width={300} height={300} header="MPS Station" url="./pages/Misc/UnderConstruction" description="MPS Station Description" imgClassName="-translate-y-[20%]" />
+            <PortfolioButton src="/images/Sterling_Engine/0.png" width={300} height={300} header="Sterling Engine" url="./pages/Misc/UnderConstruction" description="Sterling Engine Description" imgClassName="-translate-y-[2%]" />
+            <PortfolioButton src="/images/Sumo_Robot/0.jpg" width={300} height={300} header="Sumo Robot" url="./pages/Misc/UnderConstruction" description="Sumo Robot Description" imgClassName="-translate-y-[14%]" />
           </div>
         </div>
       </section>

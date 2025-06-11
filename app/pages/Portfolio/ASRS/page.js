@@ -106,9 +106,9 @@ export default function ASRS() {
                 for the tray, grippers, and tray extractors, as these could be useful methods of prototyping the designs we came up with.
               </p>
               <p className="text-2xl mt-4">
-                Some of the sketched out designs needed to work in conjunction with others. For instance, the first tray design would work with the first gripper
-                and storage rack designs because the tray extended out a hook to be grabbed from above. Other tray designs may have necessitated the grippers to
-                pick 
+                Some of the sketched out designs needed to work in conjunction with others. For instance, the first tray design works well with most of the tray extractors because
+                it can be picked up from above using the attached hanger, whereas, other tray designs dictate a need for the trays to be extracted from their underside -- hence
+                the slim storage rack designs.
               </p>
             </div>
             <div className="w-[6%]"/>
@@ -118,6 +118,44 @@ export default function ASRS() {
                            alt="ASRS Start"
                            width="1379"
                            height="1064"/>
+            </div>
+          </div>
+          <div className="flex mt-6">
+            <div className="flex max-w-[40%]">
+              <ExpandImage parentClassName="max-w-[100%]"
+                           src="/images/ASRS/6.jpg"
+                           alt="ASRS Start"
+                           width="1379"
+                           height="1064"/>
+            </div>
+            <div className="w-[6%]"/>
+            <div className="w-full">
+              <p className="text-2xl">
+                I also came up with some designs to overhaul the UI elements of the HMI screen, planning to implement them only if my group and I finished
+                with our main task first.
+              </p>
+            </div>
+          </div>
+          <div className="flex mt-6">
+            <div className="w-full">
+              <p className="text-2xl">
+                Lastly, we sat down to brainstorm some ideas for new functions we would like to see on the ASRS to improve either simplicity, functionality,
+                efficiency, or user experience. Here are a few pages of sketches detailing what we have brainstormed 
+              </p>
+            </div>
+            <div className="w-[6%]"/>
+            <div className="flex max-w-[40%]">
+              <ExpandImage parentClassName="max-w-[50%] relative"
+                           src="/images/ASRS/7.jpg"
+                           alt="ASRS Start"
+                           width="1379"
+                           height="1064"/>
+              <div className="w-[1%]"/>
+              <ExpandImage parentClassName="max-w-[50%] relative"
+                           src="/images/ASRS/8.jpg"
+                           alt="ASRS Start"
+                           width="2252"
+                           height="4000"/>
             </div>
           </div>
         </section>
